@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafe Uddaraj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-section">
+        <div class="fix-width">
+            <div class="items flex">
+                <div class="background w-50" id="background-1">
+                    <h1>Vertical Position Mouse Background Color</h1>
+                    <p>color code : <input type="text" id="color-codeY" value="#f7f9ff" readonly> </p>
+                    <button id="copyY">Copy Color</button>
+                </div>
+                <div class="background w-50" id="background-2">
+                    <h1>Horizontal Position Mouse Background Color</h1>
+                    <p>color code : <input type="text" id="color-codeX" value="#f7f9ff" readonly> </p>
+                    <button id="copyX">Copy Color</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mouse-section">
+        <div class="fix-width">
+            <div class="mouse-items flex">
+                <div class="mouse-move flex" id="mouse-move">
+                    <h1>It is your Mouse Move Place</h1>
+                </div>
+                <div class="test">
+                    <div class="input">
+                        <label for="test">Background Color Test</label>
+                        <input type="text" id="test" placeholder="Example #fff">
+                    </div>
+                    <button class="btn" id="preview-btn">Preview Live</button>
+                    <button class="btn" id="reset-btn">Reset</button>
+                </div>
+                <div class="preview" id="preview-div">
+                    <p id="preview">Preview</p>
+                    <span id="preview-copy">Copy</span>
+                    <badge id="color-code"></badge>
+                </div>
+            </div>
+        </div>
+    </div>
+<div style="height: 100vh;"></div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
